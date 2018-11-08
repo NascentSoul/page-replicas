@@ -1,26 +1,57 @@
-/* Header */
-header nav {
-  display: flex;
-  justify-content: space-between;
+html {
+    color: #333;
 }
 
-header ul {
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: Arial,x-locale-body,sans-serif;
+  letter-spacing: -.00278rem;
+  font-size: 1rem;
+}
+
+/* Header */
+
+header {
+  background: #fff;
+  border-top: 5px solid #83d0f2;
+
+  /* delete after */
+  border-bottom: 5px solid #83d0f2;
+
+  display: flex;
+  padding: 15px 15px 0;
+  padding-top: 0;
+  /* padding-left: 15px; */
+  padding-right: 0;
+  margin: 0;
+}
+
+header a {  
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  /* padding: 1rem; */
+  padding: 0 10px;
+}
+
+.nav {
+  margin-right: auto;
+}
+
+.nav ul {
   list-style: none;
 }
 
-header nav > ul {
+.nav > ul {
   display: flex;
   margin: 0;
   padding-left: 0;
 }
 
-header nav a {
-  text-decoration: none;
-}
-
-header ul li,
-header ul a {
-  padding: 0.5rem;;
+.nav ul li a {
+  line-height: 88px;
 }
 
 .dropdown {
@@ -36,5 +67,18 @@ header li:hover > .dropdown,
   visibility: visible;
   opacity: 1;
   display: block;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  background: url(./img/mdn-logo-sprite.svg) 100% 0 no-repeat;
+  padding: 0;
+  /* padding-left: 11.5rem; */
+  margin-top: 15px;
+  flex-shrink: 1;
+  text-indent:-9999px;
+  overflow:hidden;
+  width: 219px;
+  height: 48px;
 }
