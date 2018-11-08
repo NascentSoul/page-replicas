@@ -94,6 +94,7 @@ header li:hover > .dropdown,
 
 .dropdown li a {
   line-height: 2.5;
+  color: #3d7e9a;
 }
 
 .dropdown li:first-child {
@@ -109,6 +110,10 @@ header li:hover > .dropdown,
 
 .dropdown li:hover {
   background: none;
+}
+
+.dropdown svg {
+  fill: #3d7e9a;
 }
 
 /* Sign in and search form */
