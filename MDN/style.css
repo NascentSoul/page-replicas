@@ -50,6 +50,7 @@ header a {
 
 .nav ul li a {
   line-height: 88px;
+  padding-right: 14.5px;
 }
 
 .dropdown {
