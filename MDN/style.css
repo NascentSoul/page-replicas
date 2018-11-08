@@ -1,1 +1,40 @@
+/* Header */
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
 
+header ul {
+  list-style: none;
+}
+
+header nav > ul {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+header ul li,
+header ul a {
+  padding: 0.5rem;;
+}
+
+.dropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  margin-top: 1rem;
+  display: none;
+}
+
+header li:hover > .dropdown,
+.dropdown:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  padding-left: 0;
+}
