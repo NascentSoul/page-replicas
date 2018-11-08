@@ -34,6 +34,7 @@ header a {
   padding: 0 10px;
 }
 
+/* Nav list */
 .nav {
   margin-right: auto;
 }
@@ -80,4 +81,39 @@ header li:hover > .dropdown,
   overflow:hidden;
   width: 219px;
   height: 48px;
+}
+
+/* Sign in and search form */
+.sign-in {
+  align-self: center;
+  background: url(./img/GitHub-Mark-32px.png) no-repeat 92% 40%;
+  background-size: 24px 24px;
+  padding-right: 34px;
+  line-height: 88px;
+}
+
+.header-form {
+  align-self: center;
+  line-height: 88px;
+  background: #222;
+  width: 450px;
+}
+
+.header-form input {
+  background: #222;
+  color: #fff;
+  outline: none;
+  height: 2rem;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  font-size: 1rem;
+  margin-left: 65px;
+  width: 335px;
+}
+
+.header-form .icon-search {
+  fill: #fff;
+  position: absolute;
+  margin-left: 15px;
+  top: 31px;
 }
