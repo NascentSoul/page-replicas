@@ -87,14 +87,17 @@ header li:hover > .dropdown,
 .dropdown:hover {
   visibility: visible;
   opacity: 1;
-  display: block;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
 }
 
 .dropdown li a {
   line-height: 2.5;
   color: #3d7e9a;
+  display: block;
 }
 
 .dropdown li:first-child {
