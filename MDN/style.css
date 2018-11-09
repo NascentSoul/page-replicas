@@ -310,6 +310,7 @@ header li:hover > .dropdown,
   font-weight: bold;
   border: 0;
   border-radius: 40px;
+  margin-bottom: 1px;
 }
 
 /* Sign up */
@@ -358,10 +359,17 @@ header li:hover > .dropdown,
   padding: 14px 10px;
   padding-right: 143px;
   border: 2px solid #3d7e9a;
-  background: #fff;
   color: #285c76;
   font-size: 16px;
   font-weight: bold;
+  background: url(./img/right-arrow.svg) no-repeat #fff;
+  background-size: 16px 16px;
+  background-position: 96% 50%;
+  transition: 0.1s;
+}
+
+.grid-sign-up button:hover {
+  background-position: 98% 50%;
 }
 
 .grid-sign-up input::placeholder {
