@@ -422,6 +422,9 @@ header li:hover > .dropdown,
   margin: 0;
   margin-top: -5px;
   margin-bottom: 30px;
+}
+
+.blog p:last-child {
   font-size: 14px;
   font-style: italic;
 }
@@ -430,5 +433,31 @@ header li:hover > .dropdown,
 .aside {
   grid-row: 2 / 3;
   grid-column: 3 / 4;
-  border: 1px solid #000;
+}
+
+.aside h2 {
+  margin: 0;
+  padding-top: 8px;
+  font-size: 34px;
+}
+
+.aside ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 33px;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  align-content: stretch;
+}
+
+.aside li {
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 20px;
+}
+
+.aside a {
+  display: block;
+  text-decoration: none;
+  color: #3d7e9a;
 }
