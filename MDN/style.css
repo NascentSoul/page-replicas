@@ -16,10 +16,6 @@ body {
 header {
   background: #fff;
   border-top: 5px solid #83d0f2;
-
-  /* delete after */
-  border-bottom: 5px solid #83d0f2;
-
   display: flex;
   padding: 15px 15px 0;
   padding-top: 0;
@@ -156,4 +152,48 @@ header li:hover > .dropdown,
   position: absolute;
   margin-left: 15px;
   top: 31px;
+}
+
+/* Main content */
+
+/* Search section */
+.main-search {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-between;
+  padding-top: 150px;
+  background: #83d0f2;
+  background-image: url(./img/hero-dino.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 20px;
+}
+
+.main-search ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-search h1 {
+  margin: 0;
+  border: 0;
+  font-size: 2.33333rem;
+  font-family: x-locale-heading-primary,zillaslab,Palatino,"Palatino Linotype",x-locale-heading-secondary,serif;
+  font-weight: 400;
+  letter-spacing: 0.018em;
+  line-height: 1.25;
+  padding: 0 4px;
+  background: #333;
+  color: #fff;
+  height: 45px;
+  margin-bottom: 41px;
+}
+
+.main-search form input {
+  width: 775px;
+  height: 64px;
+  border: 2px solid #999;
 }
