@@ -511,6 +511,15 @@ footer .footer-logo {
   overflow:hidden;
 }
 
+footer .footer-logo:hover {
+  border: 0;
+}
+
+footer .mozilla-logo:hover {
+  border: 0;
+}
+
+
 footer .mozilla-logo {
   background: url(./img/mdn-logo-sprite.svg) -96px -171px no-repeat;
   background-size: 420px;
@@ -525,4 +534,78 @@ footer label {
 
 footer form {
   padding-top: 0px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer a {
+  color: #83d0f2;
+}
+
+footer a:hover {
+  border-bottom: 1px solid #83d0f2;
+}
+
+footer p {
+  font-size: 0.8rem;
+  padding-top: 20px;
+}
+
+footer form {
+  margin-bottom: 20px;
+}
+
+footer div a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer form select {
+  width: 220px;  
+  font-size: 1rem;  
+}
+
+footer h2 {
+  font-size: 1.1rem;  
+}
+
+.mdn-section {
+  padding-top: 35px;
+  padding-left: 60px;
+}
+
+.mdn-section li {
+  margin-bottom: 10px;
+}
+
+.mdn-section > a {
+  line-height: 0; 
+  font-size: 0;
+  color: transparent; 
+  margin-right: 20px;
+}
+
+.mdn-section svg {
+  fill: #83d0f2;
+}
+
+.mozilla-section {
+  padding-top: 35px;
+}
+
+.mozilla-section li {
+  margin-bottom: 10px;
+}
+
+.mozilla-section > a {
+  line-height: 0; 
+  font-size: 0;
+  color: transparent; 
+  margin-right: 20px;
+}
+
+.mozilla-section svg {
+  fill: #83d0f2;
 }
