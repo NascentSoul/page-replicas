@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas: 
+      "h h"
+      "a m"
+      "f f";
+}
+
+header {
+  background-color: #345A97;
+  grid-area: h;
+
+}
+
+main {
+  grid-area: m;
+}
+
+aside {
+  grid-area: a;
+
+}
+
+footer {
+  grid-area: f;
+}
