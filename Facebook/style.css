@@ -224,10 +224,12 @@ main input::placeholder {
   font-size: 0.82rem;
   font-weight: bold;
   /* letter-spacing: 0.01rem; */
+  margin-bottom: 31px;
 }
 
 .celeb a {
   text-decoration: none;
+  color: #365899;
 }
 
 /* Aside */
@@ -235,7 +237,7 @@ main input::placeholder {
 aside {
   grid-area: a;
   background: url(./img/GwFs3_KxNjS.png) no-repeat 133.5% 81.5%;
-  background: url(./img/GwFs3_KxNjS.png) no-repeat 133.5% 26.7%;
+  background: url(./img/GwFs3_KxNjS.png) no-repeat 133.5% 25.9%;
   padding-top: 20px;
   padding-left: 185px;
   padding-right: 34px;
@@ -250,4 +252,43 @@ aside {
 
 footer {
   grid-area: f;
+  background-color: #fff;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  padding-bottom: 8px;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+footer li {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding-right: 5.6px;
+  color: #737373;
+}
+
+footer a {
+  text-decoration: none;
+  color: #365899;
+}
+
+.wrapper {
+  width: 980px;
+  margin: 47px auto;
+}
+
+.lang {
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.links li {
+  padding-right: 16px;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  color: #737373;
 }
