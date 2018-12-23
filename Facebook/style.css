@@ -218,11 +218,24 @@ main input::placeholder {
   text-decoration: none;
 }
 
+.celeb {
+  color: #777;
+  margin-top: 38px;
+  font-size: 0.82rem;
+  font-weight: bold;
+  /* letter-spacing: 0.01rem; */
+}
+
+.celeb a {
+  text-decoration: none;
+}
+
 /* Aside */
 
 aside {
   grid-area: a;
   background: url(./img/GwFs3_KxNjS.png) no-repeat 133.5% 81.5%;
+  background: url(./img/GwFs3_KxNjS.png) no-repeat 133.5% 26.7%;
   padding-top: 20px;
   padding-left: 185px;
   padding-right: 34px;
