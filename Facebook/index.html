@@ -32,17 +32,20 @@
     <form action="#" method="post">
       <h1>Create an account</h1>
   
-      <p>It's always free and always will be.</p>
+      <p>It's free and always will be.</p>
+      <div class="form-grid">
+        <input type="text" name="first-name" id="first-name" placeholder="First name">
 
-      <input type="text" name="first-name" id="first-name" placeholder="First name">
+        <input type="text" name="surname" id="surname" placeholder="Surname">
 
-      <input type="text" name="surname" id="surname" placeholder="Surname">
+        <input type="text" name="number-or-email" id="number-or-email" placeholder="Mobile number or email address">
 
-      <input type="text" name="number-or-email" id="number-or-email" placeholder="Mobile number or email adress">
+        <input type="passwleftord" name="new-password" id="new-password" placeholder="New password">
+      </div>
 
-      <input type="password" name="new-password" id="new-password" placeholder="New password">
-
-      <label for="date-of-birth">Birthday
+      <div class="birthday">
+        <label for="date-of-birth">Birthday
+        </label>
         <select name="day-of-birth" id="day-of-birth" aria-labelledby="date-of-birth">
           <option value="26">Day</option>
           <option value="1">1</option>
@@ -77,19 +80,22 @@
           <option value="2014">2014</option>
           <option value="2013">2013</option>
           <option value="2012">2012</option>
-          <option value="2011"><2011/option>
+          <option value="2011">2011</option>
         </select>
-      </label>
-      
-      <a href="#">Why do I need to provide my date of birth?</a>
+        <a href="#">Why do I need to provide my <br> date of birth?</a>
+      </div>      
 
-      <label for="female">Female
-        <input type="radio" name="gender" id="female" value="female">
-      </label>
+      <div class="gender">
+        <input type="radio" name="gender" id="female" value="female"> 
+        <label for="female"> Female
+        </label>
+      </div>
 
-      <label for="male">Male
-        <input type="radio" name="gender" id="male" value="male">
-      </label>
+      <div class="gender">
+        <input type="radio" name="gender" id="male"   value="male"> 
+        <label for="male"> Male
+        </label>
+      </div>
 
       <p>By clicking <a href="#">Sign Up</a>, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.
       </p>
